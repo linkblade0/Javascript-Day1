@@ -40,6 +40,8 @@ function welcome(){
   var greeting = ("Welcome " + getName());
   return greeting;
 }
+
+alert(welcome());
 //Next problem
 
 
@@ -74,18 +76,16 @@ function welcome(){
 
   //Code Here
 function myName(){
-  var name = "Joey";
-  return name;
+  return "Joey";
 }
-myName();
 
 
 //Now save the function definition of myName into a new variable called newMyName
 
   //Code Here
-
+var newMyName = (myName());
 //Now alert the result of invoking newMyName
-alert(myName());
+alert(newMyName());
 
 
 //Next problem
